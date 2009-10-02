@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
      "README.txt",
      "Rakefile",
      "VERSION",
+     "ar_mailer.gemspec",
      "bin/ar_sendmail",
      "lib/action_mailer/ar_mailer.rb",
      "lib/action_mailer/ar_sendmail.rb",
