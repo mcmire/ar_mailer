@@ -1,3 +1,9 @@
+=== 1.4.1
+
+* Fix ar_sendmail so that we set Net::SMTP to TLS mode before the start command
+  instead of within the start block, as in smtp_tls's version of start, TLS mode
+  has already been checked before the block is called.
+
 === 1.4.0
 
 * 1.8.7 and 1.9 STARTTLS compatibility, now uses smtp_tls gem for STARTTLS on
